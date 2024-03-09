@@ -1,0 +1,21 @@
+@font-face {
+  font-family: vazir;
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/vazir/Vazir-Medium.eot");
+  src: url("assets/fonts/vazir/Vazir-Medium.woff") format("woff"),
+    url("assets/fonts/vazir/Vazir-Medium.ttf") format("ttf"),
+    url("assets/fonts/vazir/Vazir-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: b nazanin;
+  font-style: normal;
+  font-weight: 100;
+  src: url("assets/fonts/bNazanin/B-Nazanin.ttf");
+}
+.navbar{
+  font-family: vazir;
+  background: rgba(235, 207, 235, 0.349);
+  backdrop-filter: blur(25px);
+  border-radius: 5px;
+}

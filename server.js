@@ -97,7 +97,7 @@ const socketEmit = (clientNumber,fName, data) =>{
     module.exports.socketEmit = socketEmit
 
 
-    //-----here we handle custom received event and its value-------
+    //-----here we handle custom received event and its value-------@mehsall1995
     socket.on('counter', (msg) => {
         io.to(client[clientNumber]).emit(fName,data)
     });

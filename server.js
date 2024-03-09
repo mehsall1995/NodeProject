@@ -101,8 +101,6 @@ const socketEmit = (clientNumber,fName, data) =>{
     socket.on('counter', (msg) => {
         io.to(client[clientNumber]).emit(fName,data)
     });
-
- 
     //------ logMeIn function ---------
     socket.on('logMeIn', (msg) => {
         let json = JSON.parse(msg);
